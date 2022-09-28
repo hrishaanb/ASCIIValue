@@ -41,7 +41,7 @@ function my_keydown (e)
 			document.getElementById("d1").innerHTML="You pressed Arrow Key";
 			console.log("arrow key");
 		}
-		else if ((keyPressed == 17) || (keyPressed == 18) || (keyPressd == 27)) {
+		else if ((keyPressed == 17) || (keyPressed == 18) || (keyPressed == 27)) {
 			specialkey();
 			document.getElementById("d1").innerHTML="You pressed Special Key";
 			console.log("special key");
